@@ -27,11 +27,11 @@ class Student {
     void bunk() { cout << this->name << " bunking :" << endl; }
 
     // destructor
-    ~Student() { cout << "student default dtor called" << endl; }
+    ~Student() { cout << this->name << " " << "student default dtor called" << endl; }
 };
 
 int main() {
-    Student A; // creation of the object
+    Student A; // creation of the object -> A
     A.id = 1;
     A.age = 20;
     A.name = "Shubham";
@@ -40,5 +40,14 @@ int main() {
     A.study();
     A.sleeping();
     A.bunk();
+
+    Student B; // creation of the object -> B
+    B.id = 1;
+    B.age = 20;
+    B.name = "Rahul";
+    B.nos = 6;
+
+    B.bunk();
+
     return 0;
 }
