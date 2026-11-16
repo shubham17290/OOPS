@@ -12,7 +12,7 @@ class Student {
     // brhaviors /methods /functions
     void study() { cout << this->name << "studying : " << endl; }
     void sleeping() { cout << this->name << "sleeping : " << endl; }
-    void bunk() { cout << this->name << "buncking : " << endl; }
+    void bunck() { cout << this->name << "buncking : " << endl; }
 };
 int main() {
     Student A;
