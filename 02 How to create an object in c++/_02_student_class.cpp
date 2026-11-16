@@ -3,27 +3,17 @@
 
 using namespace std;
 class Student {
-
   public:
     // attributes
     int id;
     int age;
     string name;
     int nos;
-
-    // ctor: Default ctor
-    Student() { cout << "Student Default ctor called" << endl; };
-
-    // behaviour /methods / functions
-    void study() { cout << this->name << " Studying" << endl; }
-    void sleep() { cout << this->name << " Sleeping" << endl; }
-    void bunk() { cout << this->name << " buncking" << endl; }
-
-    // Dtor : Default Destructor
-
-    ~Student() { cout << "Student Default dtor called" << endl; };
+    // brhaviors /methods /functions
+    void study() { cout << this->name << "studying : " << endl; }
+    void sleeping() { cout << this->name << "sleeping : " << endl; }
+    void bunk() { cout << this->name << "buncking : " << endl; }
 };
-
 int main() {
     Student A;
     A.id = 1;
