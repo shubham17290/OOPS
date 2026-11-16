@@ -17,7 +17,7 @@ class Student {
     void sleeping() { cout << this->name << "sleeping : " << endl; }
     void bunck() { cout << this->name << "buncking : " << endl; }
     //  destructor : default one called automatically
-    Student() { cout << "student default dctor called" << endl; }
+    ~Student() { cout << "student default dctor called" << endl; }
 };
 int main() {
     Student A; // creation of the object !
