@@ -231,7 +231,7 @@
 
 <script>
 const topics = [
-  { id:1, num:"01", title:"OOPs in Life", tag:"Analogy", desc:"Real-world analogies: objects, classes, state & behavior.", bullets:["Everything around you is an object","A class is a blueprint (e.g., 'Car')","State = data, Behavior = methods","OOP models reality, not syntax"], code:`// Real life: a Car
+  { id:1, num:"01", title:"OOPs in Life", tag:"Analogy", desc:"Real-world analogies: objects, classes, state & behavior.", bullets:["Everything around you is an object","A class is a blueprint (e.g., 'Car')","State = data, Behavior = methods","OOP models reality, not syntax","Repo examples: Car, BankAccount, Student, Mobile, Book, ATM, Restaurant Order"], code:`// Real life: a Car
 class Car {
   // state
   string color;
@@ -239,7 +239,10 @@ class Car {
   // behavior
   void accelerate() { speed += 10; }
   void brake()     { speed -= 10; }
-};` },
+};
+
+// More real-life blueprints live in 01 OOPs in real life/:
+// BankAccount, Student, Mobile, Book, ATM, Restaurant Order` },
   { id:2, num:"02", title:"How to create objects in C++", tag:"Creation", desc:"Classes, constructors, stack vs heap, new/delete.", bullets:["class defines blueprint","Objects on stack auto-destruct","Objects on heap need delete","Constructors initialize state"], code:`class Point {
   int x, y;
 public:
